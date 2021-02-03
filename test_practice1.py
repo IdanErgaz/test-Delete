@@ -45,7 +45,7 @@ def test_hover():
     action=ActionChains(driver)
     action.move_to_element(time).move_to_element(attendence).click(myRecords).perform()
 
-
+#just adding a comment- commit and check auto test running
 @pytest.mark.regression
 def test_tearDown():
     print('Finish runing the test!')
